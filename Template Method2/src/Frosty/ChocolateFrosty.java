@@ -15,13 +15,9 @@
 
 package Frosty;
 
-public class FrostyWithHook extends Frosty{
-
-	FrostyWithHook() {
-	}
+public class ChocolateFrosty extends Frosty {
 
 	void addFlavor() {
-		
-		
+		System.out.println("Adding Chocolate.");
 	}
 }

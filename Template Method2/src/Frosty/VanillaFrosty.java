@@ -15,13 +15,13 @@
 
 package Frosty;
 
-public class FrostyWithHook extends Frosty{
+public class VanillaFrosty extends Frosty {
 
-	FrostyWithHook() {
+	public VanillaFrosty() {
 	}
 
+	@Override
 	void addFlavor() {
-		
-		
+		System.out.println("Adding Vanilla.");
 	}
 }
